@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "prompt",
+            "prompt": "A coding session just ended. Analyze it by running /decision-log:analyze latest and present the decision log to the user."
+          }
+        ]
+      }
+    ]
+  }
+}
