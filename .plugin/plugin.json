@@ -1,0 +1,11 @@
+{
+  "name": "decision-log",
+  "version": "0.1.0",
+  "description": "Decision log analysis for AI coding sessions. Extracts decisions from session history, runs adversarial review with auto-fork, and produces reviewable decision logs for humans.",
+  "author": "TylerLeonhardt",
+  "license": "MIT",
+  "skills": ["skills/decision-breadcrumbs"],
+  "agents": ["agents/decision-analyst.md", "agents/adversary.md"],
+  "commands": ["commands/analyze.md", "commands/fork.md"],
+  "hooks": "hooks/hooks.json"
+}
